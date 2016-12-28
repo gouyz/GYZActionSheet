@@ -47,6 +47,8 @@ class ViewController: UIViewController {
         dataSource.append("WeiChat模式")
         dataSource.append("WeiChat多行模式")
         dataSource.append("TableView模式")
+        dataSource.append("AlertViewController 封装alert")
+        dataSource.append("AlertViewController 封装sheet")
         
         for _ in 0 ..< dataSource.count {
             selectSource.append("")
@@ -124,6 +126,17 @@ extension ViewController : UITableViewDelegate,UITableViewDataSource{
                 weakSelf?.selectSource[indexPath.row] = "第\(index)行,\(title)"
                 weakSelf?.tableView.reloadData()
             }
+        
+        case 6:
+            GYZAlertViewTools.alertViewTools.showAlert(title: "登录", message: "请登录", cancleTitle: "", viewController: self ,buttonTitles: "登录","忘记密码",alertActionBlock:{ (index) in
+                
+                print("\(index)")
+            })
+        case 7:
+            GYZAlertViewTools.alertViewTools.showSheet(title: nil, message: nil, cancleTitle: "取消", viewController: self, buttonTitles: "10:00","11:00","12:00","13:00","14:00","15:00","16:00",alertActionBlock:{ (index) in
+                
+                print("\(index)")
+            })
         default:
             return
         }

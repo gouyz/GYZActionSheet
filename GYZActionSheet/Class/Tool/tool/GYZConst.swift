@@ -32,7 +32,7 @@ let kDismissTime = 0.3
 /// 显示动画时间
 let kPushTime = 0.3
 
-
+let cancelIndex = -1
 
 /// 字体常量
 let k10Font = UIFont.systemFont(ofSize: 10.0)

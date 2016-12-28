@@ -10,6 +10,7 @@
 		0A63113B1E10B85A00D67D02 /* GYZUIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6311381E10B85A00D67D02 /* GYZUIColor+Extension.swift */; };
 		0A63113C1E10B85A00D67D02 /* GYZConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A63113A1E10B85A00D67D02 /* GYZConst.swift */; };
 		0A63113E1E10BB5600D67D02 /* GYZUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A63113D1E10BB5600D67D02 /* GYZUIView+Extension.swift */; };
+		0A681A3E1E13655200E8E70F /* GYZAlertViewTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A681A3D1E13655200E8E70F /* GYZAlertViewTools.swift */; };
 		0A6EEAE61E125608000391CE /* GYZActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6EEAE31E125608000391CE /* GYZActionSheet.swift */; };
 		0A6EEAE71E125608000391CE /* GYZSheetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6EEAE41E125608000391CE /* GYZSheetCell.swift */; };
 		0A6EEAE81E125608000391CE /* GYZSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6EEAE51E125608000391CE /* GYZSheetView.swift */; };
@@ -43,6 +44,7 @@
 		0A6311381E10B85A00D67D02 /* GYZUIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GYZUIColor+Extension.swift"; sourceTree = "<group>"; };
 		0A63113A1E10B85A00D67D02 /* GYZConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYZConst.swift; sourceTree = "<group>"; };
 		0A63113D1E10BB5600D67D02 /* GYZUIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GYZUIView+Extension.swift"; sourceTree = "<group>"; };
+		0A681A3D1E13655200E8E70F /* GYZAlertViewTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYZAlertViewTools.swift; sourceTree = "<group>"; };
 		0A6EEAE31E125608000391CE /* GYZActionSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYZActionSheet.swift; sourceTree = "<group>"; };
 		0A6EEAE41E125608000391CE /* GYZSheetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYZSheetCell.swift; sourceTree = "<group>"; };
 		0A6EEAE51E125608000391CE /* GYZSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYZSheetView.swift; sourceTree = "<group>"; };
@@ -112,6 +114,14 @@
 			path = tool;
 			sourceTree = "<group>";
 		};
+		0A681A3A1E135C5900E8E70F /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				0A681A3D1E13655200E8E70F /* GYZAlertViewTools.swift */,
+			);
+			path = AlertView;
+			sourceTree = "<group>";
+		};
 		0A6EEAE21E125608000391CE /* SheetView */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,6 +187,7 @@
 		0A7123711E0D235C0003AFF6 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				0A681A3A1E135C5900E8E70F /* AlertView */,
 				0A6EEAE21E125608000391CE /* SheetView */,
 				0A6311361E10B85A00D67D02 /* Tool */,
 			);
@@ -322,6 +333,7 @@
 				0A63113C1E10B85A00D67D02 /* GYZConst.swift in Sources */,
 				0A7123461E0D23220003AFF6 /* ViewController.swift in Sources */,
 				0A6EEAE81E125608000391CE /* GYZSheetView.swift in Sources */,
+				0A681A3E1E13655200E8E70F /* GYZAlertViewTools.swift in Sources */,
 				0A6EEAE61E125608000391CE /* GYZActionSheet.swift in Sources */,
 				0A63113E1E10BB5600D67D02 /* GYZUIView+Extension.swift in Sources */,
 				0A7123441E0D23220003AFF6 /* AppDelegate.swift in Sources */,
